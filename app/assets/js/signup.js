@@ -23,10 +23,7 @@ $scope.SignUp = function() {
                         name: username,
                         email: email ,
                         createdate: new Date().toString()
-            })            $window.alert("Register Success! ");
-            window.location.href= "index.html";
-			      
-			
+            })
 
 
 
